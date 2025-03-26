@@ -1,7 +1,7 @@
 import os
 from langchain_google_genai import GoogleGenerativeAI
 from api_keys import gemini_api #importing my api key
-
+from langchain.prompts import PromptTemplate
 
 # Simple Sequential Chain implementation
 # Here, one output of the chain is used as the input of another chain, hence only final output is retreived
